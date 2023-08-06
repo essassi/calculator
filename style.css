@@ -1,0 +1,81 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  font-size: 35px;
+  color: white;
+  background-color: #333;
+  border: none;
+  outline: none;
+  margin: 5px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.clacul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  border: 2px solid gray;
+  /* background-size:cover;
+  background-color: #222;
+  width: 30%;
+  align-content: center;
+  margin: 80px 400px; */
+  background-color: #222;
+  width: max-content;
+  position: relative;
+  left: 35%;
+  /* right: 50%; */
+}
+p {
+  color: #222;
+  font-size: 40px;
+  font-weight: 900;
+  background-color: #e3dfdf;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.clear,
+.nega,
+.modulo {
+  background-color: rgb(210, 210, 210);
+  color: #222;
+}
+button:hover {
+  box-shadow: 0px 5px 50px goldenrod;
+  background-color: goldenrod;
+}
+
+.div,
+.soustr,
+.add,
+.egale,
+.multi {
+  background-color: gold;
+  color: #fff;
+}
+.fev button.zero{
+width: 200px;
+text-align: start;
+padding: 0 25px;
+}
